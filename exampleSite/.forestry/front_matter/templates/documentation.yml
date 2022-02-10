@@ -4,7 +4,8 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Documentation
+  description: Test document
 - type: datetime
   name: date
   label: date
