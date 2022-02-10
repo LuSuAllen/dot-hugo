@@ -18,5 +18,20 @@ fields:
 - type: text
   name: type
   label: type
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content
+  description: Enter content here
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
 pages:
 - test-page.md
