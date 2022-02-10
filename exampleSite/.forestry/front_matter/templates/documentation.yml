@@ -33,3 +33,6 @@ fields:
   config:
     maxSize: 64
   label: Image
+pages:
+- getting-started.md
+- test-page.md
