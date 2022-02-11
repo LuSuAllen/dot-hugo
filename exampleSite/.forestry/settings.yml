@@ -7,11 +7,6 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: ''
-  label: Documentation
-  create: all
-  match: exampleSite/content/documentation/**/*
-- type: directory
   path: exampleSite/content/billing-pricing
   label: Billing pricing
   create: all
@@ -41,6 +36,13 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: heading
+  label: Test Page
+- type: directory
+  path: ''
+  label: Documentation
+  create: all
+  match: exampleSite/content/documentation/**/*
 upload_dir: exampleSite/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
