@@ -46,7 +46,7 @@ sections:
 - type: heading
   label: Configuration
 - type: document
-  path: exampleSite
+  path: exampleSite/*
   label: config
   match: "**/*"
 upload_dir: exampleSite/static/uploads
