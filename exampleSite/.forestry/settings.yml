@@ -45,10 +45,6 @@ sections:
   match: exampleSite/content/documentation/**/*
 - type: heading
   label: Configuration
-- type: document
-  path: exampleSite/*
-  label: config
-  match: "**/*"
 upload_dir: exampleSite/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
