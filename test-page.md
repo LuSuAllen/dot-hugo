@@ -1,6 +1,6 @@
 +++
 content = "Testing"
-date = 2022-02-10T16:00:00Z
+date = "2022-02-10T16:00:00+00:00"
 description = "Random text"
 draft = true
 icon = ""
@@ -9,3 +9,6 @@ title = "Test page"
 type = "test"
 
 +++
+lol
+
+hello-world
